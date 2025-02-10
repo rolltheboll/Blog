@@ -7,19 +7,19 @@ app = Flask(__name__)
 posts = [
     {
         'id': 1,
-        'title': 'First Post',
-        'content': 'This is the full content of the first post.',
-        'excerpt': 'This is the first post.',
-        'date_published': '01/15/2025',
-        'category': 'Technology'
+        'title': 'Post 1',
+        'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+        'excerpt': 'This is my first post.',
+        'date_published': '09/02/2025',
+        'category': 'Sports'
     },
     {
         'id': 2,
         'title': 'Second Post',
-        'content': 'This is the full content of the second post.',
+        'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
         'excerpt': 'This is the second post.',
         'date_published': '02/20/2025',
-        'category': 'Lifestyle'
+        'category': 'Politics'
     }
 ]
 
